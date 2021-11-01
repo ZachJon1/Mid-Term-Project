@@ -1,7 +1,8 @@
 # Mid-Term-Project
 --------------------------------------------Problem Statement---------------------------------------------------------
 
-Amazon has data on the 50 best sellers from 2009 to 2019. The company would like to have more insights about their customers' behavior through data visualizations and a model to predict user rating of a book. Amazon hopes to build a simple model that will help inform about customer behaviour through the rating of these best sellers.
+Amazon has data on the 50 best sellers from 2009 to 2019. The company would like to have more insights about their customers' behavior through data visualizations and a model to predict user rating of a book. 
+Amazon hopes to build a simple model that will help inform about customer behaviour through the rating of these best sellers.
 
 Data: The data for this project was obtained from kaggle 
 
@@ -25,8 +26,11 @@ The libraries that were used in the reading, cleaning, visualization, modeling a
 ___________________________________________________Libraries____________________________________________
 
 pandas
+
 numpy 
+
 gunicorn
+
 Visualization:
 
 seaborn
@@ -35,8 +39,11 @@ from matplotlib import pyplot as plt
 Cleaning data:
 
 import missingno
+
 from fuzzywuzzy import fuzz
+
 from fuzzywuzzy import process
+
 from collections import Counter
 
 Splitting Data, Create Vectorizers :
@@ -69,7 +76,8 @@ from sklearn.ensemble import RandomForestRegressor
 
 from sklearn.ensemble import GradientBoostingRegressor
 
-To tune our parameters, I used GridSearchCV, Link: https://scikit-learn.org/stable/modules/generated/sklearn.model_selection.GridSearchCV.html
+To tune our parameters, I used GridSearchCV 
+Link: https://scikit-learn.org/stable/modules/generated/sklearn.model_selection.GridSearchCV.html
 
 Fine tuning with GridSearchCV was comparatively easy than the initial fine tuning with manual entries for each parameter.
 
