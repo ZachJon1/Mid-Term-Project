@@ -71,7 +71,11 @@ from sklearn.ensemble import GradientBoostingRegressor
 
 To tune our parameters, I used GridSearchCV, Link: https://scikit-learn.org/stable/modules/generated/sklearn.model_selection.GridSearchCV.html
 
-Fine tuning with GridSearchCV was comparatively easy than the initial fine tuning with manual entries for each parameter. GridSearchCV allows for a mulittasked search for the best parameters for each model. Hence different combinations of the Hyperparameters of the models are used till the best results are obtained. Also it cross validates the model by using different sets of the training data in searching for the optimum parameters.
+Fine tuning with GridSearchCV was comparatively easy than the initial fine tuning with manual entries for each parameter.
+
+GridSearchCV allows for a mulittasked search for the best parameters for each model. Hence different combinations of the Hyperparameters of the models are used till the best results are obtained.
+
+Also it cross validates the model by using different sets of the training data in searching for the optimum parameters.
 
 The best model that was chosen was based on the mean_squared_error which is a measure of the residual between the model predicted value and the actual data points.
 
@@ -93,15 +97,25 @@ The model was also deployed to Heroku.
 Key Files 
 
 Project_predict.py
+
 Project_train.py
+
 Project_test.py
+
 requirements.txt
+
 wsgi.py
+
 Procfile
+
 Dockerfile
+
 Mid-Term Project III - Coding mostly done in Jupyter notebook before exporting as script. It contains EDA & training the models as well.
+
 pipfile.lock
+
 pipfile
+
 model_file.bin
 
 
