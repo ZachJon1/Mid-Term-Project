@@ -81,7 +81,7 @@ Link: https://scikit-learn.org/stable/modules/generated/sklearn.model_selection.
 
 Fine tuning with GridSearchCV was comparatively easy than the initial fine tuning with manual entries for each parameter.
 
-GridSearchCV allows for a mulittasked search for the best parameters for each model. Hence different combinations of the Hyperparameters of the models are used till the best results are obtained.
+GridSearchCV allows for a multitasked search for the best parameters for each model. Hence different combinations of the Hyperparameters of the models are used till the best results are obtained.
 
 Also it cross validates the model by using different sets of the training data in searching for the optimum parameters.
 
